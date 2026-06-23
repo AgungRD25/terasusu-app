@@ -70,7 +70,7 @@ info_cuaca_api = ""
 log_api_status = "Tidak Aktif (Mode Simulasi Manual)"
 
 if gunakan_api:
-    API_KEY = st.secrets["OPENWEATHER_API_KEY"] # <--- JANGAN LUPA MASUKKAN KEMBALI API KEY DI SINI
+    API_KEY = "12bcf3cddf876b0c4e9eb6251bd91f72" # <--- JANGAN LUPA MASUKKAN KEMBALI API KEY DI SINI
     KOTA = "Surabaya,id"
     url_api = f"http://api.openweathermap.org/data/2.5/forecast?q={KOTA}&appid={API_KEY}&units=metric&lang=id"
     
